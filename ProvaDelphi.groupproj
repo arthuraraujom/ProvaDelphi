@@ -9,7 +9,7 @@
         <Projects Include="Componentes\spComponentesDT.dproj">
             <Dependencies/>
         </Projects>
-        <Projects Include="ProvaDelphiApp.dproj">
+        <Projects Include="app\ProvaDelphiApp.dproj">
             <Dependencies/>
         </Projects>
     </ItemGroup>
@@ -39,13 +39,13 @@
         <MSBuild Projects="Componentes\spComponentesDT.dproj" Targets="Make"/>
     </Target>
     <Target Name="ProvaDelphiApp">
-        <MSBuild Projects="ProvaDelphiApp.dproj"/>
+        <MSBuild Projects="app\ProvaDelphiApp.dproj"/>
     </Target>
     <Target Name="ProvaDelphiApp:Clean">
-        <MSBuild Projects="ProvaDelphiApp.dproj" Targets="Clean"/>
+        <MSBuild Projects="app\ProvaDelphiApp.dproj" Targets="Clean"/>
     </Target>
     <Target Name="ProvaDelphiApp:Make">
-        <MSBuild Projects="ProvaDelphiApp.dproj" Targets="Make"/>
+        <MSBuild Projects="app\ProvaDelphiApp.dproj" Targets="Make"/>
     </Target>
     <Target Name="Build">
         <CallTarget Targets="spComponentes;spComponentesDT;ProvaDelphiApp"/>
