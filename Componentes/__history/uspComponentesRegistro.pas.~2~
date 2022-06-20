@@ -1,0 +1,12 @@
+unit uspComponentesRegistro;
+
+interface
+
+uses
+ uspQuery;
+
+ procedure register;
+
+implementation
+
+end.
