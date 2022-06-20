@@ -27,6 +27,8 @@ package spComponentes;
 {$ENDIF IMPLICITBUILDING}
 {$IMPLICITBUILD ON}
 
+{$RUNONLY ON}
+
 requires
   rtl;
 
