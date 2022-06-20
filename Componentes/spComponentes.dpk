@@ -27,10 +27,12 @@ package spComponentes;
 {$ENDIF IMPLICITBUILDING}
 {$IMPLICITBUILD ON}
 
-{$RUNONLY ON}
-
 requires
-  rtl;
+  rtl,
+  dbrtl,
+  FireDAC,
+  FireDACCommonDriver,
+  FireDACCommon;
 
 contains
   uspQuery in 'uspQuery.pas';

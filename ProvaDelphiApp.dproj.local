@@ -2,8 +2,11 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2022/06/17 12:56:54.000.812,=C:\Users\Arthur Moreira\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/06/17 12:59:05.000.818,C:\Users\Arthur Moreira\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\UFormMain.pas</Transaction>
     <Transaction>2022/06/17 12:59:05.000.818,C:\Users\Arthur Moreira\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\UFormMain.dfm</Transaction>
+    <Transaction>2022/06/17 12:59:05.000.818,C:\Users\Arthur Moreira\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\UFormMain.pas</Transaction>
     <Transaction>2022/06/17 12:59:14.000.695,C:\Users\Arthur Moreira\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\ProvaDelphiApp.dproj</Transaction>
+    <Transaction>2022/06/20 10:50:31.123,=C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\Unit2.pas</Transaction>
+    <Transaction>2022/06/20 10:55:59.372,C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\View\ufTarefa1.dfm=C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\Unit2.dfm</Transaction>
+    <Transaction>2022/06/20 10:55:59.372,C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\View\ufTarefa1.pas=C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\Unit2.pas</Transaction>
   </Transactions>
 </BorlandProject>

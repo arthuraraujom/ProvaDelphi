@@ -27,9 +27,14 @@ package spComponentesDT;
 {$ENDIF IMPLICITBUILDING}
 {$IMPLICITBUILD ON}
 
-{$DESIGNONLY ON}
-
 requires
-  rtl;
+  rtl,
+  dbrtl,
+  FireDAC,
+  FireDACCommonDriver,
+  FireDACCommon;
+
+contains
+  uspComponentesRegistro in 'uspComponentesRegistro.pas';
 
 end.

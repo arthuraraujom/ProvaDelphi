@@ -73,7 +73,7 @@ begin
 
   for var iIntCount := 0 to fspColunas.count -1 do
     if fspColunas[iIntCount].trim <> '' then
-      iStrColunas := iStrColunas + ',' + fspColunas[iIntCount];
+      iStrColunas := iStrColunas + fspColunas[iIntCount] + ',';
                     
   if iStrColunas.trim <> '' then     
   begin

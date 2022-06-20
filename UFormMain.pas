@@ -10,9 +10,10 @@ type
   TForm1 = class(TForm)
     MainMenu1: TMainMenu;
     arefas1: TMenuItem;
-    arefa11: TMenuItem;
-    afera21: TMenuItem;
-    arefa031: TMenuItem;
+    mMnItem1: TMenuItem;
+    mMnItem2: TMenuItem;
+    mMnItem3: TMenuItem;
+    procedure mMnItem1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -24,6 +25,15 @@ var
 
 implementation
 
+uses
+  ufTarefa1;
+
 {$R *.dfm}
+
+procedure TForm1.mMnItem1Click(Sender: TObject);
+begin
+  fTarefa1 := TfTarefa1.create(self);
+  fTarefa1.Show;
+end;
 
 end.

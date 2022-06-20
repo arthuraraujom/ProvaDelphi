@@ -1,7 +1,7 @@
 object Form1: TForm1
   Left = 0
   Top = 0
-  Caption = 'Form1'
+  Caption = 'Prova Delphi App'
   ClientHeight = 299
   ClientWidth = 635
   Color = clBtnFace
@@ -13,6 +13,8 @@ object Form1: TForm1
   FormStyle = fsMDIForm
   Menu = MainMenu1
   OldCreateOrder = False
+  Position = poScreenCenter
+  WindowState = wsMaximized
   PixelsPerInch = 96
   TextHeight = 13
   object MainMenu1: TMainMenu
@@ -20,14 +22,15 @@ object Form1: TForm1
     Top = 24
     object arefas1: TMenuItem
       Caption = 'Tarefas'
-      object arefa11: TMenuItem
-        Caption = 'Tarefa 01'
+      object mMnItem1: TMenuItem
+        Caption = 'Tarefa 1'
+        OnClick = mMnItem1Click
       end
-      object afera21: TMenuItem
-        Caption = 'Tafera 02'
+      object mMnItem2: TMenuItem
+        Caption = 'Tafera 2'
       end
-      object arefa031: TMenuItem
-        Caption = 'Tarefa 03'
+      object mMnItem3: TMenuItem
+        Caption = 'Tarefa 3'
       end
     end
   end
