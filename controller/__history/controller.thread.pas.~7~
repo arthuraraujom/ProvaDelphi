@@ -1,0 +1,30 @@
+unit controller.thread;
+
+interface
+
+uses
+  controller.interfaces;
+
+type
+  TControllerThread = class(TInterfacedObject, iControllerThread)
+  private
+    { private declarations }
+
+  public
+    { public declarations }
+
+     procedure executar(aTempo: integer; aPgBar: TProgressBar);
+
+  end;
+
+
+implementation
+
+{ TControllerThread }
+
+procedure TControllerThread.executar(aTempo: integer; aPgBar: TProgressBar);
+begin
+
+end;
+
+end.

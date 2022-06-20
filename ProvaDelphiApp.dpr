@@ -2,15 +2,19 @@ program ProvaDelphiApp;
 
 uses
   Vcl.Forms,
-  UFormMain in 'UFormMain.pas' {Form1},
-  ufTarefa1 in 'View\ufTarefa1.pas' {fTarefa1};
+  view.main in 'view.main.pas' {viewMain},
+  view.template.child in 'view\view.template.child.pas' {viewTemplateChild},
+  ufTarefa1 in 'view\ufTarefa1.pas' {fTarefa1},
+  ufTarefa2 in 'view\ufTarefa2.pas' {fTarefa2},
+  controller.thread in 'Controller\controller.thread.pas',
+  controller.interfaces in 'Controller\controller.interfaces.pas',
+  model.thread in 'model\model.thread.pas',
+  model.interfaces in 'model\model.interfaces.pas';
 
 {$R *.res}
 
 begin
   Application.Initialize;
-  Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TForm1, Form1);
-  Application.CreateForm(TfTarefa1, fTarefa1);
+  Application.CreateForm(TviewMain, viewMain);
   Application.Run;
 end.

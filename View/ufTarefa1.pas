@@ -7,10 +7,10 @@ uses
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, FireDAC.Stan.Intf,
   FireDAC.Stan.Option, FireDAC.Stan.Param, FireDAC.Stan.Error, FireDAC.DatS,
   FireDAC.Phys.Intf, FireDAC.DApt.Intf, FireDAC.Stan.Async, FireDAC.DApt,
-  Data.DB, FireDAC.Comp.DataSet, FireDAC.Comp.Client;
+  Data.DB, FireDAC.Comp.DataSet, FireDAC.Comp.Client, view.template.child;
 
 type
-  TfTarefa1 = class(TForm)
+  TfTarefa1 = class(TviewTemplateChild)
     memColunas: TMemo;
     memTabelas: TMemo;
     memCondicoes: TMemo;
@@ -21,6 +21,7 @@ type
     Label3: TLabel;
     Label4: TLabel;
     procedure Button1Click(Sender: TObject);
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
   private
     { Private declarations }
     function geraSql: string;
@@ -41,6 +42,12 @@ uses
 procedure TfTarefa1.Button1Click(Sender: TObject);
 begin
   memSqlGerado.Lines.Text := geraSql;
+end;
+
+procedure TfTarefa1.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+  Action := caFree;
+  fTarefa1 := nil;
 end;
 
 function TfTarefa1.geraSql: string;
