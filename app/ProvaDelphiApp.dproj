@@ -121,6 +121,13 @@
             <Form>viewMain</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="view\ufTarefa3.pas">
+            <Form>fTarefa3</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="controller\controller.projeto.pas"/>
+        <DCCReference Include="model\model.projeto.pas"/>
+        <DCCReference Include="commons\commons.types.pas"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>

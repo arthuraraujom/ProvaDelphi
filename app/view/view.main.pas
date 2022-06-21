@@ -15,6 +15,7 @@ type
     mMnItem3: TMenuItem;
     procedure mMnItem1Click(Sender: TObject);
     procedure mMnItem2Click(Sender: TObject);
+    procedure mMnItem3Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -27,7 +28,7 @@ var
 implementation
 
 uses
-   ufTarefa1, ufTarefa2;
+   ufTarefa1, ufTarefa2, ufTarefa3;
 
 {$R *.dfm}
 
@@ -54,6 +55,18 @@ begin
 
   fTarefa2 := TfTarefa2.create(self);
   fTarefa2.Show;
+end;
+
+procedure TviewMain.mMnItem3Click(Sender: TObject);
+begin
+  if fTarefa3 <> nil then
+  begin
+    fTarefa3.show;
+    exit;
+  end;
+
+  fTarefa3 := TfTarefa3.create(self);
+  fTarefa3.Show;
 end;
 
 end.

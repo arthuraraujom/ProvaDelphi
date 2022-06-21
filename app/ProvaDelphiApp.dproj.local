@@ -1,2 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<BorlandProject/>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/06/21 07:57:14.000.816,=C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\app\Unit1.pas</Transaction>
+    <Transaction>2022/06/21 07:57:50.000.791,C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\app\view\ufTarefa3.dfm=C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\app\Unit1.dfm</Transaction>
+    <Transaction>2022/06/21 07:57:50.000.791,C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\app\view\ufTarefa3.pas=C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\app\Unit1.pas</Transaction>
+    <Transaction>2022/06/21 08:36:25.000.394,=C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\app\Unit1.pas</Transaction>
+    <Transaction>2022/06/21 08:36:55.000.738,C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\app\controller\controller.projeto.pas=C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\app\Unit1.pas</Transaction>
+    <Transaction>2022/06/21 08:37:01.000.333,=C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\app\Unit1.pas</Transaction>
+    <Transaction>2022/06/21 08:37:14.000.432,C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\app\model\model.projeto.pas=C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\app\Unit1.pas</Transaction>
+    <Transaction>2022/06/21 08:48:28.000.823,=C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\app\Unit1.pas</Transaction>
+    <Transaction>2022/06/21 08:48:46.000.602,C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\app\commons\commons.types.pas=C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\app\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

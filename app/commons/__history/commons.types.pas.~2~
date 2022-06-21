@@ -1,0 +1,10 @@
+unit commons.types;
+
+interface
+
+uses
+  Data.db, Datasnap.DBClient;
+
+implementation
+
+end.

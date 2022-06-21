@@ -1,0 +1,15 @@
+unit commons.types;
+
+interface
+
+uses
+  Data.db, Datasnap.DBClient;
+
+type
+
+
+  TClientDs = TClientDataSet;
+
+implementation
+
+end.

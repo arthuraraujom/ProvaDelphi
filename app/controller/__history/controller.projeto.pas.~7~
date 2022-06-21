@@ -1,0 +1,48 @@
+unit controller.projeto;
+
+interface
+
+uses
+  controller.interfaces, commons.types;
+
+type
+  TControllerProjeto = class(TInterfacedObject, iControllerProjeto)
+  private
+    { private declarations }
+
+  public
+    { public declarations }
+
+    class function new: iControllerProjeto;
+
+    function getTotal(aDataSet: TCommonDataSet): Currency;
+    function getTotalDivisoes(aDataSet: TCommonDataSet): Currency;
+
+    procedure loadData(aDataSet: TCommonDataSet);
+  end;
+
+implementation
+
+{ TControllerProjeto }
+
+function TControllerProjeto.getTotal(aDataSet: TCommonDataSet): Currency;
+begin
+
+end;
+
+function TControllerProjeto.getTotalDivisoes(aDataSet: TCommonDataSet): Currency;
+begin
+
+end;
+
+procedure TControllerProjeto.loadData(aDataSet: TCommonDataSet);
+begin
+
+end;
+
+class function TControllerProjeto.new: iControllerProjeto;
+begin
+  result  :=  TControllerProjeto.Create;
+end;
+
+end.

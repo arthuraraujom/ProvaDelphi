@@ -32,6 +32,7 @@ object viewMain: TviewMain
       end
       object mMnItem3: TMenuItem
         Caption = 'Tarefa 3'
+        OnClick = mMnItem3Click
       end
     end
   end

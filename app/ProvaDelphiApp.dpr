@@ -9,7 +9,11 @@ uses
   controller.interfaces in 'Controller\controller.interfaces.pas',
   model.thread in 'model\model.thread.pas',
   model.interfaces in 'model\model.interfaces.pas',
-  view.main in 'view\view.main.pas' {viewMain};
+  view.main in 'view\view.main.pas' {viewMain},
+  ufTarefa3 in 'view\ufTarefa3.pas' {fTarefa3},
+  controller.projeto in 'controller\controller.projeto.pas',
+  model.projeto in 'model\model.projeto.pas',
+  commons.types in 'commons\commons.types.pas';
 
 {$R *.res}
 
