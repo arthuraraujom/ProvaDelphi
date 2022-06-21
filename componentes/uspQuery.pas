@@ -3,7 +3,7 @@ unit uspQuery;
 interface
 
 uses
-  System.Classes, System.SysUtils, FireDAC.Comp.Client;
+  System.Classes, System.SysUtils, FireDAC.Comp.Client, FireDAC.DApt;
 
 type
   TspQuery = class(TFDQuery)
@@ -15,7 +15,6 @@ type
     fsql: string;
 
     function validaPropriedades: boolean;
-    procedure LimpaPropriedades;
   public
     { public declarations }
 
@@ -25,6 +24,7 @@ type
     property sql: string read fsql write fsql;
 
     procedure GeraSQL;
+    procedure LimpaPropriedades;
 
     constructor Create(AOwner: TComponent); override;
     destructor Destroy; override;

@@ -936,6 +936,9 @@
                 <Platform value="Win64">False</Platform>
             </Platforms>
             <ModelSupport>False</ModelSupport>
+            <UnitTesting>
+                <TestProjectName>C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\app\Test\ProvaDelphiAppTests.dproj</TestProjectName>
+            </UnitTesting>
         </BorlandProject>
         <ProjectFileVersion>12</ProjectFileVersion>
     </ProjectExtensions>
