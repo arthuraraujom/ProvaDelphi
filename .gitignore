@@ -1,4 +1,7 @@
 *.dcu
 *.res
-*.exe
+*.lib
+*.dcp
+*.bpi
+*.bpl
 *.identcache
