@@ -50,7 +50,7 @@ begin
                       .new
                       .getTotalDivisoes(fClientDataSet);
 
-  edtTotalDivisoes.Text  := formatfloat('#,##0.00', iCurrResult);
+  edtTotalDivisoes.Text  := CurrToStr(iCurrResult);
 end;
 
 procedure TfTarefa3.Button2Click(Sender: TObject);

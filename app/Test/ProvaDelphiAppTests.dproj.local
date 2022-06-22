@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2022/06/21 19:25:30.191,=C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\app\Test\TestTarefa3.pas</Transaction>
-    <Transaction>2022/06/21 19:25:30.410,=C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\app\controller\controller.projeto.pas</Transaction>
-    <Transaction>2022/06/21 19:34:00.057,=C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\app\commons\commons.types.pas</Transaction>
-    <Transaction>2022/06/21 19:34:53.409,=C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\app\controller\controller.thread.pas</Transaction>
-    <Transaction>2022/06/21 19:35:02.798,=C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\app\controller\controller.interfaces.pas</Transaction>
-    <Transaction>2022/06/21 19:38:35.972,=C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\app\model\model.thread.pas</Transaction>
-    <Transaction>2022/06/21 19:38:40.133,=C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\app\model\model.projeto.pas</Transaction>
-    <Transaction>2022/06/21 19:38:51.412,=C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\app\model\model.interfaces.pas</Transaction>
-    <Transaction>2022/06/21 20:03:09.558,=C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\app\Test\TestTarefa2.pas</Transaction>
-    <Transaction>2022/06/21 20:38:44.425,=C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\app\Test\TestTarefa1.pas</Transaction>
-    <Transaction>2022/06/21 20:38:44.510,=C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\componentes\uspQuery.pas</Transaction>
+	<Transactions>
+    <Transaction>2022/06/21 19:25:30.000.410,=C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\app\controller\controller.projeto.pas</Transaction>
+    <Transaction>2022/06/21 19:25:30.000.191,=C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\app\Test\TestTarefa3.pas</Transaction>
+    <Transaction>2022/06/21 19:34:00.000.057,=C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\app\commons\commons.types.pas</Transaction>
+    <Transaction>2022/06/21 19:34:53.000.409,=C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\app\controller\controller.thread.pas</Transaction>
+    <Transaction>2022/06/21 19:35:02.000.798,=C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\app\controller\controller.interfaces.pas</Transaction>
+    <Transaction>2022/06/21 19:38:35.000.972,=C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\app\model\model.thread.pas</Transaction>
+    <Transaction>2022/06/21 19:38:40.000.133,=C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\app\model\model.projeto.pas</Transaction>
+    <Transaction>2022/06/21 19:38:51.000.412,=C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\app\model\model.interfaces.pas</Transaction>
+    <Transaction>2022/06/21 20:03:09.000.558,=C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\app\Test\TestTarefa2.pas</Transaction>
+    <Transaction>2022/06/21 20:38:44.000.425,=C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\app\Test\TestTarefa1.pas</Transaction>
+    <Transaction>2022/06/21 20:38:44.000.510,=C:\Users\Arthur Moreira\Documents\Projetos\ProvaDelphiApp\componentes\uspQuery.pas</Transaction>
   </Transactions>
 </BorlandProject>
